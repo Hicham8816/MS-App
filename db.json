@@ -1,0 +1,1572 @@
+{
+  "_ids": {
+    "users": 3,
+    "branches": 10,
+    "faculties": 4,
+    "departments": 3,
+    "years": 3,
+    "modules": 3,
+    "groups": 3,
+    "professors": 5,
+    "products": 2,
+    "codes": 105,
+    "blockEvents": 0
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "user",
+      "role": "user",
+      "branchId": 1,
+      "facultyId": 1,
+      "departmentId": 1,
+      "yearId": 1,
+      "moduleId": 1,
+      "groupId": 1,
+      "creditDzd": 0,
+      "blocked": false,
+      "wrongRedeemAttempts": 0,
+      "blockedCount": 0,
+      "lang": "de"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "branchId": 1,
+      "creditDzd": 0,
+      "blocked": false,
+      "wrongRedeemAttempts": 0,
+      "blockedCount": 0,
+      "lang": "de"
+    },
+    {
+      "id": 3,
+      "username": "supervisor",
+      "password": "supervisor",
+      "role": "supervisor",
+      "branchId": null,
+      "creditDzd": 0,
+      "blocked": false,
+      "wrongRedeemAttempts": 0,
+      "blockedCount": 0,
+      "lang": "de"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "Filiale 1 (Beispiel)"
+    },
+    {
+      "id": 2,
+      "name": "Filiale 2 (Beispiel)"
+    },
+    {
+      "id": 3,
+      "name": "Setif"
+    },
+    {
+      "id": 4,
+      "name": "Constantin"
+    },
+    {
+      "id": 5,
+      "name": "Alger"
+    },
+    {
+      "id": 6,
+      "name": "Oran"
+    },
+    {
+      "id": 7,
+      "name": "SetSetif"
+    },
+    {
+      "id": 8,
+      "name": "123Filiale"
+    },
+    {
+      "id": 9,
+      "name": "SetifElbez"
+    },
+    {
+      "id": 10,
+      "name": "Setifffff"
+    }
+  ],
+  "branchSettings": {
+    "1": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3,
+      "pricing": {
+        "pricePerPage": 4
+      }
+    },
+    "2": {
+      "currency": "DZD",
+      "pagePrice": 12,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "3": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "4": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "5": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "6": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "7": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "8": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "9": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    },
+    "10": {
+      "currency": "DZD",
+      "pagePrice": 10,
+      "defaultPriceMode": "AUTO",
+      "extras": [
+        {
+          "key": "EXTRA1",
+          "label": "Extra 1",
+          "amount": 30
+        },
+        {
+          "key": "EXTRA2",
+          "label": "Extra 2",
+          "amount": 50
+        },
+        {
+          "key": "EXTRA3",
+          "label": "Extra 3",
+          "amount": 80
+        },
+        {
+          "key": "EXTRA4",
+          "label": "Extra 4",
+          "amount": 150
+        }
+      ],
+      "latestN": 20,
+      "newTagDays": 3
+    }
+  },
+  "faculties": [
+    {
+      "id": 3,
+      "branchId": 1,
+      "name": "Médecine"
+    }
+  ],
+  "departments": [
+    {
+      "id": 3,
+      "facultyId": 3,
+      "name": "Médecine"
+    }
+  ],
+  "years": [
+    {
+      "id": 1,
+      "departmentId": 1,
+      "name": "1. Jahr"
+    },
+    {
+      "id": 2,
+      "departmentId": 1,
+      "name": "2. Jahr"
+    },
+    {
+      "id": 3,
+      "departmentId": 3,
+      "name": "1ere Année"
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "yearId": 1,
+      "name": "Modul 1"
+    },
+    {
+      "id": 2,
+      "yearId": 1,
+      "name": "Modul 2"
+    },
+    {
+      "id": 3,
+      "yearId": 3,
+      "name": "Anatomie"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "moduleId": 1,
+      "name": "Gruppe 1"
+    },
+    {
+      "id": 2,
+      "moduleId": 1,
+      "name": "Gruppe 2"
+    },
+    {
+      "id": 3,
+      "moduleId": 3,
+      "name": "A"
+    }
+  ],
+  "professors": [
+    {
+      "id": 3,
+      "facultyId": 3,
+      "name": "Pr Moumeni"
+    },
+    {
+      "id": 4,
+      "facultyId": 3,
+      "name": "Pr Bahar"
+    },
+    {
+      "id": 5,
+      "facultyId": 3,
+      "name": "Pr Bouaalami"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "facultyId": 1,
+      "departmentId": 1,
+      "yearId": 1,
+      "moduleId": 1,
+      "groupId": 1,
+      "professorId": 1,
+      "title": "Anatomie Skript (Demo)",
+      "pages": 12,
+      "priceMode": "fixed",
+      "fixedPrice": 0,
+      "extraKey": "extra1",
+      "discountType": "percent",
+      "discountValue": 50,
+      "note": "Demo-Notiz",
+      "visible": true,
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "branchId": 1,
+      "facultyId": 1,
+      "departmentId": 1,
+      "yearId": 1,
+      "moduleId": 1,
+      "groupId": 2,
+      "professorId": 2,
+      "title": "Physio Zusammenfassung (Demo)",
+      "pages": 8,
+      "priceMode": "auto",
+      "fixedPrice": null,
+      "extraKey": "extra2",
+      "discountType": "PERCENT",
+      "discountValue": 20,
+      "note": "",
+      "visible": true,
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    }
+  ],
+  "codes": [
+    {
+      "id": 1,
+      "code": "PS-7H2K-9QPF-3R",
+      "amount": 500,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "code": "PS-2M8D-4TZA-1N",
+      "amount": 1000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "code": "PS-8XWQ-6JLP-0C",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "code": "PS-CEJR-78FF-5E",
+      "amount": 500,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:39:26.835Z"
+    },
+    {
+      "id": 5,
+      "code": "PS-RPGM-5MZE-SB",
+      "amount": 500,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:39:27.374Z"
+    },
+    {
+      "id": 6,
+      "code": "PS-DBT6-HRAF-QV",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 7,
+      "code": "PS-UJS8-A5CP-MX",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 8,
+      "code": "PS-B82X-JMQN-KG",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 9,
+      "code": "PS-JYD7-XTLF-YX",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 10,
+      "code": "PS-WSVG-BX9F-J2",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 11,
+      "code": "PS-STWU-ZYDU-73",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 12,
+      "code": "PS-J3VA-M8N7-UB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 13,
+      "code": "PS-YVQ2-KKG8-NY",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 14,
+      "code": "PS-WT5C-3GRU-BV",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 15,
+      "code": "PS-RMRE-PTNK-U6",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 16,
+      "code": "PS-QBDG-BPQZ-RX",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 17,
+      "code": "PS-MGMW-TZFS-K8",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 18,
+      "code": "PS-FVN8-7HS7-6S",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 19,
+      "code": "PS-DP3N-TRUQ-VU",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 20,
+      "code": "PS-N55D-TT6K-7B",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 21,
+      "code": "PS-LSMA-UXLP-BB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 22,
+      "code": "PS-644R-JWS2-PB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 23,
+      "code": "PS-7CRX-C2RK-N9",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 24,
+      "code": "PS-NTVP-MCU2-33",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 25,
+      "code": "PS-YZ4N-LKY7-75",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 26,
+      "code": "PS-5EFC-AQMM-2P",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 27,
+      "code": "PS-HZU2-BBG5-3N",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 28,
+      "code": "PS-9KJA-6M4B-KU",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 29,
+      "code": "PS-2589-T43P-XT",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 30,
+      "code": "PS-8ARW-M9Z9-J2",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 31,
+      "code": "PS-FC32-B6S4-FE",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 32,
+      "code": "PS-RNKA-PB62-V5",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 33,
+      "code": "PS-M5D3-ND6S-KC",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 34,
+      "code": "PS-CALS-5NAM-RY",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 35,
+      "code": "PS-YYQZ-UB8M-T6",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 36,
+      "code": "PS-NSXB-FZWK-KW",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 37,
+      "code": "PS-PJ6F-82DQ-S5",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 38,
+      "code": "PS-E9A3-4ZEB-PT",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 39,
+      "code": "PS-9RDG-7BB8-7S",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 40,
+      "code": "PS-L4C4-HMD9-W3",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 41,
+      "code": "PS-52KD-CZ3J-3C",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 42,
+      "code": "PS-2MZW-AUXD-FP",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 43,
+      "code": "PS-DTAD-3LVZ-DS",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 44,
+      "code": "PS-LNM8-JHNT-YL",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 45,
+      "code": "PS-AF62-RD7F-A7",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 46,
+      "code": "PS-4KHZ-8WAS-NH",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 47,
+      "code": "PS-QVZZ-JTES-NK",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 48,
+      "code": "PS-NY56-X98X-WP",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 49,
+      "code": "PS-3Y4C-ARNE-AB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 50,
+      "code": "PS-4EU6-GAZ3-Y3",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 51,
+      "code": "PS-U59C-2WPW-QQ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 52,
+      "code": "PS-GJ6X-J85R-3T",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 53,
+      "code": "PS-SCQ4-JH38-4A",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 54,
+      "code": "PS-SZB3-RMNY-EU",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.145Z"
+    },
+    {
+      "id": 55,
+      "code": "PS-MJ8N-XD3H-HG",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 56,
+      "code": "PS-W9MR-FQQN-R6",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 57,
+      "code": "PS-D7KJ-8TDF-Z9",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 58,
+      "code": "PS-TD2Z-Q4R9-2G",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 59,
+      "code": "PS-9WVX-UKFC-7K",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 60,
+      "code": "PS-JRVJ-T8XC-GR",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 61,
+      "code": "PS-ML3G-MR2U-CQ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 62,
+      "code": "PS-72HB-76K7-PR",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 63,
+      "code": "PS-L7RC-CVYD-96",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 64,
+      "code": "PS-FWLW-TBRU-PF",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 65,
+      "code": "PS-9DNN-DSFT-KQ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 66,
+      "code": "PS-J3CM-NUR8-WH",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 67,
+      "code": "PS-B9RP-83UM-Y6",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 68,
+      "code": "PS-L5LP-WQX2-U7",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 69,
+      "code": "PS-ACBV-RGD8-VC",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 70,
+      "code": "PS-VXME-XTRA-UB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 71,
+      "code": "PS-ZSTY-Y5ES-DQ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 72,
+      "code": "PS-STQV-D5T7-S9",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 73,
+      "code": "PS-WJFJ-ARQB-V3",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 74,
+      "code": "PS-W4JR-Y5K6-GL",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 75,
+      "code": "PS-ZCT2-WV5Q-BH",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 76,
+      "code": "PS-EZGK-ZK66-GK",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 77,
+      "code": "PS-SK7L-NRRQ-6N",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 78,
+      "code": "PS-CYBU-MW7Z-88",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 79,
+      "code": "PS-KU2H-RRT9-6C",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 80,
+      "code": "PS-DC7V-HPTT-GZ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 81,
+      "code": "PS-Q25U-NEFV-ET",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 82,
+      "code": "PS-4P9E-AWUC-BU",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 83,
+      "code": "PS-EHM9-D93E-3N",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 84,
+      "code": "PS-TB3W-K8J2-XX",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 85,
+      "code": "PS-BRLK-TR33-GB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 86,
+      "code": "PS-ZAYW-4YYZ-R5",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 87,
+      "code": "PS-5MUZ-58GG-DQ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 88,
+      "code": "PS-MW6A-ZF27-94",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 89,
+      "code": "PS-HZP3-QCK6-C5",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 90,
+      "code": "PS-6FCQ-EVMJ-LX",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 91,
+      "code": "PS-GUL6-5RCH-WM",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 92,
+      "code": "PS-6ACJ-MVPM-J2",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 93,
+      "code": "PS-RC4X-KLYX-GH",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 94,
+      "code": "PS-G7FM-KMYA-5Z",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 95,
+      "code": "PS-M5WL-3WYR-AS",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 96,
+      "code": "PS-88ZP-GUVA-GG",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 97,
+      "code": "PS-7FAX-DDNJ-DJ",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 98,
+      "code": "PS-ZFCQ-ZC6G-RN",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 99,
+      "code": "PS-HGZG-9BLL-WB",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 100,
+      "code": "PS-7SSU-MQM8-T9",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 101,
+      "code": "PS-KMHL-C32Q-T4",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 102,
+      "code": "PS-7V66-XS6Y-WT",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 103,
+      "code": "PS-ZDVH-46K8-2S",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 104,
+      "code": "PS-KX4U-78HU-S4",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    },
+    {
+      "id": 105,
+      "code": "PS-7UTD-D7L8-9Q",
+      "amount": 2000,
+      "status": "FRESH",
+      "visibleToAdminUserId": null,
+      "soldByAdminUserId": null,
+      "consumedByUserId": null,
+      "createdAt": "2026-01-13T17:40:30.146Z"
+    }
+  ],
+  "blockEvents": []
+}
